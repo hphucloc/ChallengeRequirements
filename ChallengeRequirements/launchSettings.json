@@ -1,0 +1,27 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "ocelotapigateway": "StartWithoutDebugging",
+        "orderservice": "StartDebugging",
+        "productservice": "StartDebugging",
+        "storeservice": "StartDebugging"
+      }
+    },
+    "StarAllServices": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "ocelotapigateway",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
+      "serviceActions": {
+        "ocelotapigateway": "StartDebugging",
+        "orderservice": "StartDebugging",
+        "productservice": "StartDebugging",
+        "storeservice": "StartDebugging"
+      }
+    }
+  }
+}

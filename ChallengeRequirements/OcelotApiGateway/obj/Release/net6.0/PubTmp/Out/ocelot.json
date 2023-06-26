@@ -1,0 +1,19 @@
+{
+  "GlobalConfiguration": {    
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/ocelot/Store",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/Store",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8003
+        }
+      ]
+    }
+  ]
+}
+

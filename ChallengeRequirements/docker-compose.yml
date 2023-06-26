@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  ocelotapigateway:
+    image: ${DOCKER_REGISTRY-}ocelotapigateway
+    container_name: ocelotapigateway
+    build:
+      context: .
+      dockerfile: OcelotApiGateway/Dockerfile    
+
+  orderservice:
+    image: ${DOCKER_REGISTRY-}orderservice
+    container_name: orderservice
+    build:
+      context: .
+      dockerfile: OrderService/Dockerfile
+    
+  productservice:
+    image: ${DOCKER_REGISTRY-}productservice
+    container_name: productservice
+    build:
+      context: .
+      dockerfile: ProductService/Dockerfile
+    
+  storeservice:
+    image: ${DOCKER_REGISTRY-}storeservice
+    container_name: storeservice
+    build:
+      context: .
+      dockerfile: StoreService/Dockerfile       
