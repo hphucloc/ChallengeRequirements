@@ -9,12 +9,15 @@
       "ReportService/1.0.0": {
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "5.2.9",
+          "Microsoft.Extensions.ApiDescription.Client": "3.0.0",
           "Microsoft.NET.Test.Sdk": "17.6.2",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "Moq": "4.18.4",
           "Moq.AutoMock": "3.5.0",
+          "NSwag.ApiDescription.Client": "13.0.5",
           "NUnit": "3.13.3",
           "NUnit3TestAdapter": "4.5.0",
+          "Newtonsoft.Json": "13.0.1",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -52,6 +55,7 @@
           }
         }
       },
+      "Microsoft.Extensions.ApiDescription.Client/3.0.0": {},
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.NET.Test.Sdk/17.6.2": {
         "dependencies": {
@@ -376,6 +380,13 @@
           }
         }
       },
+      "NSwag.ApiDescription.Client/13.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Client": "3.0.0",
+          "NSwag.MSBuild": "13.0.5"
+        }
+      },
+      "NSwag.MSBuild/13.0.5": {},
       "NuGet.Frameworks/6.5.0": {
         "runtime": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {
@@ -476,6 +487,13 @@
       "path": "microsoft.codecoverage/17.6.2",
       "hashPath": "microsoft.codecoverage.17.6.2.nupkg.sha512"
     },
+    "Microsoft.Extensions.ApiDescription.Client/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EpGGEoBelJtt4IN32O02D+Lb4DjSFB1GUoItLa8GDzM4x/cqpCAKn5tRb6Fn7U3/rGlWjfLMGXW/t9zvYmPQtA==",
+      "path": "microsoft.extensions.apidescription.client/3.0.0",
+      "hashPath": "microsoft.extensions.apidescription.client.3.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -573,6 +591,20 @@
       "sha512": "sha512-wCfoF5muN8Qx9Mz3IBsCb0qlViH2fAWTwzpHWp+vSBTxy2U3/5xW5+niLtSG3dXook3bN3U8hdEWRGHM0+5f5Q==",
       "path": "nonblocking/2.1.1",
       "hashPath": "nonblocking.2.1.1.nupkg.sha512"
+    },
+    "NSwag.ApiDescription.Client/13.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zu5uTfiKtJiuzXHtgCmForzIkd2WvrFhcrg6yTiTRKPYo3az/Pl4JF+F5NmZtZ+3gIIrsf5fabJbbZ8L5BymIg==",
+      "path": "nswag.apidescription.client/13.0.5",
+      "hashPath": "nswag.apidescription.client.13.0.5.nupkg.sha512"
+    },
+    "NSwag.MSBuild/13.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CjLWwC2p+HRGxmSAJY9xtOMMO9YczTtIiGVEPckrklXjc3dJ7OAT/caKHjE+9fYx1an+9qeDao2qxmMpCkGTXQ==",
+      "path": "nswag.msbuild/13.0.5",
+      "hashPath": "nswag.msbuild.13.0.5.nupkg.sha512"
     },
     "NuGet.Frameworks/6.5.0": {
       "type": "package",

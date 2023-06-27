@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hploc\\Downloads\\Proposal\\DNX\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\ReportService.csproj": {}
+    "C:\\Users\\hphuc\\Downloads\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\ReportService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hploc\\Downloads\\Proposal\\DNX\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\ReportService.csproj": {
+    "C:\\Users\\hphuc\\Downloads\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\ReportService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hploc\\Downloads\\Proposal\\DNX\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\ReportService.csproj",
+        "projectUniqueName": "C:\\Users\\hphuc\\Downloads\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\ReportService.csproj",
         "projectName": "ReportService",
-        "projectPath": "C:\\Users\\hploc\\Downloads\\Proposal\\DNX\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\ReportService.csproj",
-        "packagesPath": "C:\\Users\\hploc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hploc\\Downloads\\Proposal\\DNX\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\obj\\",
+        "projectPath": "C:\\Users\\hphuc\\Downloads\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\ReportService.csproj",
+        "packagesPath": "C:\\Users\\hphuc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hphuc\\Downloads\\ChallengeRequirements\\ChallengeRequirements\\ReportService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\hploc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hphuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +47,12 @@
               "target": "Package",
               "version": "[5.2.9, )"
             },
+            "Microsoft.Extensions.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.2, )"
@@ -65,6 +69,12 @@
               "target": "Package",
               "version": "[3.5.0, )"
             },
+            "NSwag.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[3.13.3, )"
@@ -72,6 +82,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -97,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

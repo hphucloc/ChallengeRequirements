@@ -1,7 +1,6 @@
 ﻿
 
 using ReportService.Application.Common;
-using ReportService.Infrastructure.Common;
 using ReportService.Infrastructure.GetList;
 
 namespace ReportService.Application.Queries
@@ -14,13 +13,33 @@ namespace ReportService.Application.Queries
             _getOrder = getOrder;
         }
 
-        public List<ReportModel> Execute(DateTime from, DateTime to)
+        public async Task<List<ReportModel>> Execute(DateTime from, DateTime to)
         {
-            Task<List<OrderModel>> a = _
+            var  data = await _getOrder.Execute(from, to);
+            List<ReportModel> res = new List<ReportModel>();
+            //Sum of value
+            int curStoreID = 0, prvStoreId = 0;
+            ReportModel m = null;
+            foreach (var i in data.OrderBy(x=>x.StoreId))
+            {
+                curStoreID = i.StoreId;                
+                if (curStoreID != prvStoreId)
+                {
+                    m = new ReportModel();
+                    m.StoreNumber = curStoreID;
+                    m.OrderTotalPrice = i.OrderPrice;
+                    res.Add(m);
+                }
+                else
+                {
+                    if(m!=null)
+                        m.OrderTotalPrice += i.OrderPrice;
+                }                                
+                prvStoreId= curStoreID;
+            }
 
-
-            List<ReportModel> orders = _getOrder.Execute(from, to);
-            return orders;
-        }
+            return res;
+        }       
     }
 }
+

@@ -1,6 +1,4 @@
-﻿using ReportService.Infrastructure.Common;
-
-namespace ReportService.Infrastructure.GetList
+﻿namespace ReportService.Infrastructure.GetList
 {
     public interface IGetOrderList
     {

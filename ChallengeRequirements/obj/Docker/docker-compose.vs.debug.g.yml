@@ -13,11 +13,11 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\OcelotApiGateway:/app
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements:/src
-      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\hploc\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\OcelotApiGateway:/app
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements:/src
+      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hphuc\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
@@ -40,11 +40,11 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\OrderService:/app
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements:/src
-      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\hploc\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\OrderService:/app
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements:/src
+      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hphuc\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
@@ -68,11 +68,11 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\ProductService:/app
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements:/src
-      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\hploc\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\ProductService:/app
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements:/src
+      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hphuc\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
@@ -96,11 +96,11 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\ReportService:/app
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements:/src
-      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\hploc\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\ReportService:/app
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements:/src
+      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hphuc\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
@@ -124,11 +124,11 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\StoreService:/app
-      - C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements:/src
-      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\hploc\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\StoreService:/app
+      - C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements:/src
+      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hphuc\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 

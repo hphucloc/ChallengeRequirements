@@ -173,3 +173,4 @@ C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirement
 C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.dll
 C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.pdb
+C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\OpenAPIs\swagger.json
