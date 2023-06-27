@@ -4,6 +4,6 @@ namespace ReportService.Application.Queries
 {
     public interface ICreateReport
     {
-        List<ReportModel> Execute();
+        List<ReportModel> Execute(DateTime from, DateTime to);
     }
 }

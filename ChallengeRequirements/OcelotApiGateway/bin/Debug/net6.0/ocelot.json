@@ -51,9 +51,9 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/Order",
+      "UpstreamPathTemplate": "/Order/Get",
       "UpstreamHttpMethod": [ "Get" ],
-      "DownstreamPathTemplate": "/api/Order",
+      "DownstreamPathTemplate": "/api/Order/Get",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -63,9 +63,9 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/Order",
+      "UpstreamPathTemplate": "/Order/New",
       "UpstreamHttpMethod": [ "Post" ],
-      "DownstreamPathTemplate": "/api/Order",
+      "DownstreamPathTemplate": "/api/Order/AddOrder",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {

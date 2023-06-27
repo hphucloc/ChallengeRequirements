@@ -167,3 +167,9 @@ C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\R
 C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.exe
 C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.dll
 C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.pdb
+C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.deps.json
+C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.runtimeconfig.json
+C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.exe
+C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.dll
+C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.pdb

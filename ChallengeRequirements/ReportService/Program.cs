@@ -1,4 +1,11 @@
+
+using ReportService.Application.Queries;
+using ReportService.Infrastructure.GetList;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<IGetOrderList, GetOrderList>();
+builder.Services.AddScoped<ICreateReport, CreateReport>();
 
 // Add services to the container.
 

@@ -7,7 +7,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "OcelotApiGateway"
     volumes:
-      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
@@ -25,7 +25,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "OrderService"
     volumes:
-      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
@@ -44,7 +44,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ProductService"
     volumes:
-      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
@@ -63,7 +63,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ReportService"
     volumes:
-      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
@@ -82,7 +82,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "StoreService"
     volumes:
-      - C:\Users\hphuc\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hploc\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 

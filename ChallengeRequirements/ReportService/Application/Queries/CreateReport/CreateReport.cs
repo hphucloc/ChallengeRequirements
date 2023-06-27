@@ -1,26 +1,26 @@
 ﻿
 
+using ReportService.Application.Common;
+using ReportService.Infrastructure.Common;
+using ReportService.Infrastructure.GetList;
+
 namespace ReportService.Application.Queries
 {
     public class CreateReport : ICreateReport
     {
-        private readonly IStoreRepository _repo;
-        public CreateReport(IStoreRepository repo)
+        private readonly IGetOrderList _getOrder;
+        public CreateReport(IGetOrderList getOrder)
         {
-            _repo = repo;
+            _getOrder = getOrder;
         }
 
-        public List<StoreModel> Execute()
+        public List<ReportModel> Execute(DateTime from, DateTime to)
         {
-            var stores = _repo.GetAll()
-                .Select(x => new StoreModel()
-                {
-                    Id = x.Id,
-                    Name = x.Name,
-                    Address = x.Address
-                });
+            Task<List<OrderModel>> a = _
 
-            return stores.ToList();
+
+            List<ReportModel> orders = _getOrder.Execute(from, to);
+            return orders;
         }
     }
 }

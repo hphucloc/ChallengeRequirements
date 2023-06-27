@@ -1,8 +1,8 @@
-name: dockercompose9183921253602504815
+name: dockercompose7086380124416009331
 services:
   ocelotapigateway:
     build:
-      context: C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements
+      context: C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements
       dockerfile: OcelotApiGateway/Dockerfile
     container_name: ocelotapigateway
     environment:
@@ -21,20 +21,20 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\hphuc\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\hploc\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\hphuc\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\hploc\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
   orderservice:
     build:
-      context: C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements
+      context: C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements
       dockerfile: OrderService/Dockerfile
     container_name: orderservice
     environment:
@@ -45,20 +45,20 @@ services:
       default: null
     volumes:
     - type: bind
-      source: C:\Users\hphuc\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\hploc\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\hphuc\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\hploc\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
   productservice:
     build:
-      context: C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements
+      context: C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements
       dockerfile: ProductService/Dockerfile
     container_name: productservice
     environment:
@@ -69,20 +69,51 @@ services:
       default: null
     volumes:
     - type: bind
-      source: C:\Users\hphuc\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\hploc\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\hphuc\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\hploc\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  reportservice:
+    build:
+      context: C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements
+      dockerfile: ReportService/Dockerfile
+    container_name: reportservice
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: reportservice
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\hploc\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\hploc\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
   storeservice:
     build:
-      context: C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements
+      context: C:\Users\hploc\Downloads\Proposal\DNX\ChallengeRequirements\ChallengeRequirements
       dockerfile: StoreService/Dockerfile
     container_name: storeservice
     environment:
@@ -93,17 +124,17 @@ services:
       default: null
     volumes:
     - type: bind
-      source: C:\Users\hphuc\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\hploc\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\hphuc\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\hploc\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
 networks:
   default:
-    name: dockercompose9183921253602504815_default
+    name: dockercompose7086380124416009331_default
