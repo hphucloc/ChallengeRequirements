@@ -1951,19 +1951,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\hphuc\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\ChallengeRequirements\\ChallengeRequirements\\StoreService\\StoreService.csproj",
+      "projectUniqueName": "C:\\Users\\hphuc\\Downloads\\ChallengeRequirements\\ChallengeRequirements\\StoreService\\StoreService.csproj",
       "projectName": "StoreService",
-      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\ChallengeRequirements\\ChallengeRequirements\\StoreService\\StoreService.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\ChallengeRequirements\\ChallengeRequirements\\StoreService\\obj\\",
+      "projectPath": "C:\\Users\\hphuc\\Downloads\\ChallengeRequirements\\ChallengeRequirements\\StoreService\\StoreService.csproj",
+      "packagesPath": "C:\\Users\\hphuc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hphuc\\Downloads\\ChallengeRequirements\\ChallengeRequirements\\StoreService\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hphuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2033,24 +2037,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.18, 6.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.18, 6.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.18, 6.0.18]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.18, 6.0.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2059,7 +2045,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.107\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

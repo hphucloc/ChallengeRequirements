@@ -162,3 +162,8 @@ C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\z
 C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.deps.json
+C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.runtimeconfig.json
+C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.exe
+C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.dll
+C:\Users\hphuc\Downloads\ChallengeRequirements\ChallengeRequirements\bin\Debug\ReportService.pdb
