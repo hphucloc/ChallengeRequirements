@@ -6,11 +6,11 @@
       "UpstreamPathTemplate": "/Store",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/api/Store",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8003
+          "Host": "storeservice",
+          "Port": 80
         }
       ]
     },
@@ -18,11 +18,11 @@
       "UpstreamPathTemplate": "/Flavour",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/api/Flavour",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8002
+          "Host": "productservice",
+          "Port": 80
         }
       ]
     },
@@ -30,11 +30,11 @@
       "UpstreamPathTemplate": "/Ice",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/api/Ice",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8002
+          "Host": "productservice",
+          "Port": 80
         }
       ]
     },
@@ -42,35 +42,47 @@
       "UpstreamPathTemplate": "/Topping",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/api/Topping",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8002
+          "Host": "productservice",
+          "Port": 80
         }
       ]
     },
     {
-      "UpstreamPathTemplate": "/Order",
+      "UpstreamPathTemplate": "/Order/Get",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/api/Order",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8001
+          "Host": "orderservice",
+          "Port": 80
         }
       ]
     },
     {
-      "UpstreamPathTemplate": "/Order",
+      "UpstreamPathTemplate": "/Order/New",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/api/Order",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8001
+          "Host": "orderservice",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Report?{monthYear}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/Report?{monthYear}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "reportservice",
+          "Port": 80
         }
       ]
     }

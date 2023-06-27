@@ -28,3 +28,11 @@ services:
     build:
       context: .
       dockerfile: StoreService/Dockerfile       
+
+  reportservice:
+    image: ${DOCKER_REGISTRY-}reportservice
+    container_name: reportservice
+    build:
+      context: .
+      dockerfile: ReportService/Dockerfile
+
